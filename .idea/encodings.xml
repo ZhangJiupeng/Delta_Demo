@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/lib/delta.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/delta.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib/dom4j-1.6.1.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/dao/FriendDao.java" charset="UTF-8" />
