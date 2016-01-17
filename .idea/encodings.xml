@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/lib/delta.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/dom4j-1.6.1.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dao/FriendDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dao/UserDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dao/impl/FriendDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dao/impl/UserDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/except/ServerLogicConflictException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/service/impl/FriendServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/service/impl/UserServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/error.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/img" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/index.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/login.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/register.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/timer.jsp" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

@@ -1,0 +1,3 @@
+FindBugs
+PMD
+checkstyle

@@ -1,0 +1,84 @@
+body {
+	zoom: 1.3;
+}
+#content {
+	margin-top: 6.5%;
+}
+#friendFrame {
+	display: none;
+	position: fixed;
+	z-index: 9999;
+	background-color: #FFF;
+	width: 420px;
+	height: 220px;
+	padding: 40px;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+	margin-top: -160px;
+	box-shadow: 0 0 10px #555;
+	border-radius: 5px;
+}
+#theme {
+	display: block;
+	text-align: left;
+	padding-left: 20px;
+	margin-bottom: 15px;
+}
+#theme input[type=text] {
+	font-family: 'Microsoft YaHei', serif;
+	padding: 0;
+	margin: 0;
+	font-size: 27px;
+	border: none;
+	outline: none;
+	font-weight: bold;
+}
+#textArea {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+#textArea select option {
+	background-color: #555;
+	color: #FFF;
+}
+#textArea input[type=text], #textArea select {
+	width: 170px;
+	margin: 10px;
+	border: none;
+	border-bottom: 2px solid #DEDEDE;
+	outline: none;
+	font-size: 15px;
+}
+#textArea select {
+	display: inline-block;
+	padding-left: 2px;
+	-moz-appearance: none;
+	-webkit-appearance:none;
+	appearance:none;
+	width: 170px;
+}
+#textArea input[type=text]:focus, #textArea select:focus {
+	border-color: #058;
+}
+#save {
+	display: inline-block;
+	float: right;
+	padding: 4px 15px;
+	background-color: #580;
+	color: #FFF;
+	cursor: pointer;
+	border-radius: 3px;
+	box-shadow: 0 2px 1px #000;
+}
+#save:hover {
+	background-color: #690;
+}
+#save:active {
+	margin-top: 1px;
+	box-shadow: 0 1px 1px #000;
+}
+input[type=checkbox] {
+	cursor: pointer;
+}

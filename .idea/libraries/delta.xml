@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="delta">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/delta.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

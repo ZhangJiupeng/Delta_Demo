@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE delta SYSTEM "com/delta/core/rover/delta.dtd">
+<delta>
+    <settings>
+        <welcome-page>/user/login</welcome-page>
+        <handle-error>false</handle-error>
+        <devmode>true</devmode>
+        <character-encoding>UTF-8</character-encoding>
+        <blacklist>.jsp</blacklist>
+    </settings>
+    <action class="com.action.UserAction">
+        <service class="com.service.UserService" impl="com.service.impl.UserServiceImpl">
+            <dao class="com.dao.UserDao" impl="com.dao.impl.UserDaoImpl"/>
+        </service>
+        <interceptor class="com.action.XSSDispatcher"/>
+    </action>
+    <action class="com.action.FriendAction">
+        <service class="com.service.FriendService" impl="com.service.impl.FriendServiceImpl">
+            <dao class="com.dao.FriendDao" impl="com.dao.impl.FriendDaoImpl"/>
+        </service>
+        <interceptor class="com.action.UserValidator"/>
+    </action>
+    <action class="com.action.ClockAction"/>
+</delta>
